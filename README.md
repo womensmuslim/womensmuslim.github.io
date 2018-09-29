@@ -1,3 +1,3 @@
-# Womens's Muslim 
+# Women's Muslim 
 
-[@WomensMuslim](https://twitter.com/womensmuslim)
+[Twitter @WomensMuslim](https://twitter.com/womensmuslim)
