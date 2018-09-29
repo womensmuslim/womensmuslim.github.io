@@ -1,0 +1,59 @@
+/* Basic */
+
+	@-ms-viewport {
+		width: device-width;
+	}
+  html {
+  min-height: 100%;
+  position: relative;
+       }
+
+	body {
+		background: #fff;
+	}
+
+	body, input, select, textarea {
+		color: #333;
+		font-family: "Open Sans", Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 400;
+		letter-spacing: 0.075em;
+		line-height: 1.65em;
+	}
+
+	a {
+
+		color: #C6012F;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-bottom-color: transparent;
+		}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+       dir: rtl;
+	}
+.container {
+ margin-top:40px;
+ margin-bottom:70px;
+}
+  #footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background-color: #f5f5f5;
+    }
+    .footer-block {
+      margin: 10px 0;
+    }
