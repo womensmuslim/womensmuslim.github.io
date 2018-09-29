@@ -43,7 +43,7 @@
 
 	.align-right {
 		text-align: right;
-       dir: rtl;
+       direction: rtl;
 	}
 .container {
  margin-top:40px;
