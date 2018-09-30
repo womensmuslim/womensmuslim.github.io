@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css');
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+  background: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-transform: lowercase;
+  font-family: 'Comfortaa', cursive;
+}
+h2 {
+  font-size: 150%;
+}
+a {
+  color: #0084b4;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar, .navbar-light .bg-light{
+  border-radius: 0px;
+  font-family: 'Comfortaa', cursive;
+  background: #ffffff !important;
+  color: #000000!important;
+}
+.navbar-brand{
+  font-size:18px;
+  text-transform: lowercase;
+}
+.navbar-toggler {
+   border: 0px;
+}
+.logo {
+   width:60px;
+   height:auto;
+}
+.logo-footer, .logo-navbar {
+   width:27px;
+   height:auto;
+}
+.container {
+  margin-top: 80px;
+  padding-bottom:60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.tw {
+  color: #00aced!important;
+}
+.align-right{
+  direction: rtl;
+  text-align: right;
+  font-family:"Droid Arabic Kufi", "Droid Sans", sans-serif;
+}
+.breadcrumb {
+  background: transparent;
+  border-bottom: 1px solid #ddd;
+}
