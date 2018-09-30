@@ -1,26 +1,15 @@
-<!doctype html>
-<html>
-<head>
- <meta charset="utf-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1" />
- <title>Women's Muslim | Tweets</title>
- <link rel="stylesheet" href="https://womensmuslim.github.io/assets/main.css" />
-</head>
-<body>
-<!-- Image and text -->
-<nav class="navbar fixed-top navbar-light bg-light">
-  <a class="navbar-brand" href="https://twitter.com/womensmuslim/">
-    <i class="fab fa-twitter fa-lg"></i> @WomensMuslim
-  </a>
-</nav>
-
-<div style="margin-top:80px;" class="container">
-
-<small class="align-right">
-بسم الله و الحمد لله ، والصلاة والسلام على رسول الله ، وعلى آله وصحبه ومن تولاه وبعد
-</small>
-
-<hr/>
+<!DOCTYPE html>
+<html ng-app="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Women's Muslim</title>
+    <link href="../../../../assets/style.css" rel="stylesheet"/>
+  </head>
+    <body class="animated fadeIn">
+      <div ng-include="'../../../../routes/navbar.html'"></div>
+ <div class="container">
+      <div ng-include="'../../../../routes/bismillah.html'"></div>
 
 <h4>
 Using The People Of Bidah
@@ -39,5 +28,15 @@ The great scholar Ibn Baz [رحمه الله] said:
 
 <p>📚 [Al-Fatawa, (3/130) | Translated By Abbas Abu Yahya Miraath al-Anbiyya]</p>
 
+</div>
+
+
+      <!-- javascripts -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+      </script>
 </body>
 </html>
